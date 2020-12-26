@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Email Address"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edittextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/edittextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:text="" />
+    <TextView
+        android:id="@+id/textViewConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Confirm Password"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/edittextConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:text="" />
+
+    <Button
+        android:id ="@+id/SignupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="450dp"
+        />
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="530dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Or"
+        android:textColor="@color/black" />
+    <Button
+        android:id ="@+id/GoogleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup with google"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="600dp"
+        />
+</RelativeLayout>

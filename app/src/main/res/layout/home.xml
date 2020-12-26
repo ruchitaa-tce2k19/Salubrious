@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepagebg">
+
+    <!--set the source of an image view-->
+
+    <Button
+        android:id ="@+id/meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditation"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        />
+    <Button
+        android:id ="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Videos"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="280dp"
+        />
+    <Button
+        android:id ="@+id/diary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="555dp"
+        />
+    <Button
+        android:id ="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:background="@drawable/button_background"
+        android:padding="15dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="555dp"
+        />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/menu" /><!--set the source of an image view-->
+
+</RelativeLayout>
